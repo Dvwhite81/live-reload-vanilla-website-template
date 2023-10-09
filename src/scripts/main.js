@@ -1,3 +1,3 @@
-import { test } from './utils';
+import { setup } from './html-elements';
 
-test();
+setup();

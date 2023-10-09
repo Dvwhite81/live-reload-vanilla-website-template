@@ -1,3 +1,39 @@
-h1 {
-	color: blue;
+
+
+#container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  align-items: center;
+  border: 2px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: space-evenly;
+  margin: auto;
+  max-width: 25rem;;
+  width: 60vw;
+}
+
+input {
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#tip-buttons-container {
+  display: flex;
+}
+
+.btn-submit {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin: 1rem;
+  width: fit-content;
 }
