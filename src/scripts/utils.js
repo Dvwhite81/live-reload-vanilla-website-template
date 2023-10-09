@@ -1,7 +1,5 @@
-export const GetBacon = () => {
-  const body = fetch('https://baconipsum.com/api/?type=all-meat&paras=3').then(
-    res => res.json()
-  );
-
-  return body;
+export const test = () => {
+  const h1 = document.createElement('h1');
+  h1.textContent = "HELLO";
+  document.querySelector('body').append(h1);
 };

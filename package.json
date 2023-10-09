@@ -1,10 +1,10 @@
 {
-  "name": "live-reload-vanilla-website-template",
+  "name": "tip-calculator",
   "version": "1.0.0",
-  "description": "Template to build a website without a front-end framework. Includes transpilation of ES6+ JavaScript and Sass support",
+  "description": "Basic tip calculator",
   "main": "main.js",
-  "author": "Esau Silva",
-  "license": "MIT",
+  "author": "Dvwhite81",
+  "license": "",
   "scripts": {
     "dev:assets": "webpack --watch",
     "dev:start": "live-server --open=./public/ --host=localhost --watch=./public/",
@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/esausilva/live-reload-vanilla-website-template.git"
+    "url": "https://github.com/esausilva/tip-calculator.git"
   },
   "bugs": {
-    "url": "https://github.com/esausilva/live-reload-vanilla-website-template/issues"
+    "url": "https://github.com/esausilva/tip-calculator/issues"
   },
   "keywords": [
     "JavaScript",
